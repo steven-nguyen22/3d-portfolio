@@ -16,6 +16,8 @@ import {
   figma,
   docker,
   meta,
+  mcgraw,
+  redcross,
   starbucks,
   tesla,
   shopify,
@@ -23,6 +25,9 @@ import {
   jobit,
   tripguide,
   threejs,
+  cryptoapp,
+  gamersonly,
+  nbaapp,
 } from "../assets";
 
 export const navLinks = [
@@ -116,55 +121,27 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Content Programmer",
+    company_name: "McGraw Hill",
+    icon: mcgraw,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "September 2022 - July 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Designed and developed different online textbook problems that are releasing with the new McGraw Hill Chemistry and Math textbooks using ISL (similar to HTML) and Javascript.",
+      "Fixed past problems from older editions of the textbooks that are currently being used in schools.",
+      "Updated documentation on ISL (in-house programming language) on new bugs/fixes and more optimal ways to use the code",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "Part-Time Office Assistant",
+    company_name: "Children & Adult Medical Group",
+    icon: redcross,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "January 2015 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Fixing general IT problems in the office like Bluetooth connection with printers, internet shortages, recovering deleted files, and helping people log in.",
+      "Converting physical patient folders to a new online system which helps reduce paper use.",
+      "Entering data for new patients and pre-authorized doctor's notes.",
     ],
   },
 ];
@@ -198,67 +175,68 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Crypto Tracker",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web application that allows users to search and track Cryptocurrencies and view their current/past histories.",
     tags: [
       {
-        name: "react",
+        name: "React.js",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Chart.js",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Material-UI",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: cryptoapp,
+    source_code_link: "https://stevens-crypto-tracker.netlify.app/",
   },
   {
-    name: "Job IT",
+    name: "GamersOnly",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web-based platform that enables gamers to match and live chat with other similar gamers according to their set preferences.",
     tags: [
       {
-        name: "react",
+        name: "React.js",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Express.js",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "MongoDB",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: gamersonly,
+    source_code_link:
+      "https://github.com/CS-UCR/senior-design-project-lesalsa-james",
   },
   {
-    name: "Trip Guide",
+    name: "NBA Analytics",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Web application that performs high-level analytics on an NBA dataset while allowing users to modify/add new data.",
     tags: [
       {
-        name: "nextjs",
+        name: "HTML",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Python",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Django",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: nbaapp,
+    source_code_link: "https://github.com/steven-nguyen22/nbaAnalyticsProject",
   },
 ];
 
