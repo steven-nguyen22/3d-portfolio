@@ -1,33 +1,26 @@
 import {
   mobile,
   backend,
-  creator,
+  frontend,
   web,
   javascript,
   typescript,
   html,
   css,
   reactjs,
-  redux,
   tailwind,
   nodejs,
   mongodb,
   git,
   figma,
-  docker,
-  meta,
   mcgraw,
   redcross,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
   cryptoapp,
   gamersonly,
   nbaapp,
+  fullerton,
+  ucr,
 } from "../assets";
 
 export const navLinks = [
@@ -47,20 +40,20 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Software Engineer",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Web Developer",
     icon: mobile,
+  },
+  {
+    title: "Frontend Developer",
+    icon: frontend,
   },
   {
     title: "Backend Developer",
     icon: backend,
-  },
-  {
-    title: "Content Creator",
-    icon: creator,
   },
 ];
 
@@ -86,10 +79,6 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
     name: "Tailwind CSS",
     icon: tailwind,
   },
@@ -112,10 +101,6 @@ const technologies = [
   {
     name: "figma",
     icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
   },
 ];
 
@@ -146,30 +131,20 @@ const experiences = [
   },
 ];
 
-const testimonials = [
+const education = [
   {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    school: "University of California Riverside",
+    year: "September 2020 - June 2022",
+    degree: "Bachelor of Science",
+    major: "- Computer Science",
+    image: ucr,
   },
   {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    school: "California State University Fullerton",
+    year: "August 2018 - May 2020",
+    degree: "",
+    major: "Computer Science",
+    image: fullerton,
   },
 ];
 
@@ -240,4 +215,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, projects, education };
