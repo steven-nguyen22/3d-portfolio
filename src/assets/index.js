@@ -30,6 +30,9 @@ import nbaapp from "./nbaapp.png";
 import fullerton from "./fullerton.png";
 import ucr from "./ucr.jpg";
 
+import hoopvisionai from "./hoopvisionai.png";
+import budgetfy from "./budgetfy.png";
+
 export {
   backend,
   frontend,
@@ -57,4 +60,6 @@ export {
   gamersonly,
   fullerton,
   ucr,
+  hoopvisionai,
+  budgetfy,
 };

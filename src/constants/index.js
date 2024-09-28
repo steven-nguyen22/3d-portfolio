@@ -21,6 +21,8 @@ import {
   nbaapp,
   fullerton,
   ucr,
+  hoopvisionai,
+  budgetfy,
 } from "../assets";
 
 export const navLinks = [
@@ -150,6 +152,50 @@ const education = [
 
 const projects = [
   {
+    name: "HoopVisionAI",
+    description:
+      "AI Image Detection application used to identify visual stats for any uploaded NBA basketball video.",
+    tags: [
+      {
+        name: "React.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Python",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Ultralytics / OpenCV",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: hoopvisionai,
+    source_code_link: "https://hoopvision.onrender.com/",
+    github_link: "https://github.com/steven-nguyen22/Image-Detection",
+  },
+  {
+    name: "Budgetfy",
+    description:
+      "MERN-stack web application for users to track their finances and graphically display them throughout the year.",
+    tags: [
+      {
+        name: "React.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Express.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Docker / AWS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: budgetfy,
+    source_code_link: "https://stevens-budgetfy.onrender.com/",
+    github_link: "https://github.com/steven-nguyen22/Money-Tracker",
+  },
+  {
     name: "Crypto Tracker",
     description:
       "Web application that allows users to search and track Cryptocurrencies and view their current/past histories.",
@@ -169,6 +215,7 @@ const projects = [
     ],
     image: cryptoapp,
     source_code_link: "https://stevens-crypto-tracker.netlify.app/",
+    github_link: "https://github.com/steven-nguyen22/Crypto-Tracker",
   },
   {
     name: "GamersOnly",
@@ -191,6 +238,8 @@ const projects = [
     image: gamersonly,
     source_code_link:
       "https://github.com/CS-UCR/senior-design-project-lesalsa-james",
+    github_link:
+      "https://github.com/CS-UCR/senior-design-project-lesalsa-james",
   },
   {
     name: "NBA Analytics",
@@ -212,6 +261,7 @@ const projects = [
     ],
     image: nbaapp,
     source_code_link: "https://github.com/steven-nguyen22/nbaAnalyticsProject",
+    github_link: "https://github.com/steven-nguyen22/nbaAnalyticsProject",
   },
 ];
 
