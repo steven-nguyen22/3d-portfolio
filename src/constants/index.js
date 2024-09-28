@@ -32,7 +32,11 @@ export const navLinks = [
   },
   {
     id: "work",
-    title: "Work",
+    title: "Work Experience",
+  },
+  {
+    id: "project",
+    title: "Projects",
   },
   {
     id: "contact",
@@ -220,7 +224,7 @@ const projects = [
   {
     name: "GamersOnly",
     description:
-      "Web-based platform that enables gamers to match and live chat with other similar gamers according to their set preferences.",
+      "Online social platform that enables gamers to match and live chat with other similar gamers according to their set preferences.",
     tags: [
       {
         name: "React.js",
